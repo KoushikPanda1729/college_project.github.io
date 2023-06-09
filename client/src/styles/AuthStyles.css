@@ -1,0 +1,82 @@
+/* ===================================
+========= register page  */
+.form-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    word-spacing: 1rem;
+    font-weight: normal;
+    text-align: center;
+    min-height: 90vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F19%2F80%2FyxbGqE.jpg&f=1&nofb=1&ipt=f356df2ab61802c997187d98fa0c8d7b2b45dcd5ff7591a66962843b1c5983aa&ipo=images");
+
+}
+
+.form-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    max-width: 500px;
+    width: 60%;
+    margin: 8rem 0;
+    background-color: #ffffffb1;
+    border-radius: 10px;
+}
+
+.form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem;
+}
+
+.form-container form input {
+    border: none;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.form-container form button {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: #148b3c;
+    color: rgb(244, 237, 237);
+    width: 50%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    /* transition: 1s; */
+}
+
+.form-container form button:hover {
+    border: 1px solid black;
+    background: #000000;
+    transition: 2s;
+    background: -webkit-linear-gradient(to right,
+            #434343,
+            #000000);
+
+    background: linear-gradient(to right,
+            #434343,
+            #000000);
+}
+
+
+.forgot-btn {
+    background-color: black !important;
+    border: 0 !important;
+}
+
+
+
+.forgot-btn:hover {
+    color: white !important;
+    border: 1px solid black;
+    background: green;
+    transition: 2s;
+}
